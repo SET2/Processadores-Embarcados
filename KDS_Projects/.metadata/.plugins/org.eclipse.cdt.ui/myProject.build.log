@@ -1,0 +1,91 @@
+12:48:36 **** Incremental Build of configuration debug for project myProject ****
+make -k -j4 all 
+Building file: C:/Users/mini casa/Desktop/myProject/main.c
+Building file: C:/Users/mini casa/Desktop/myProject/tsi_kl25z.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto  -g -DDEBUG -DFSL_RTOS_BM -DCPU_MKL25Z128VLK4 -DSDK_OS_BAREMETAL -DNDEBUG -I../../ -I../../devices/MKL25Z4/gcc -I../../devices/MKL25Z4/utilities -I../../devices/MKL25Z4/drivers -I../../devices/MKL25Z4 -I../../CMSIS/Include -std=c99 -fno-common -ffreestanding -fno-builtin -mapcs -MMD -MP -MF"sources/main.d" -MT"sources/main.d" -c -o "sources/main.o" "C:/Users/mini casa/Desktop/myProject/main.c"
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto  -g -DDEBUG -DFSL_RTOS_BM -DCPU_MKL25Z128VLK4 -DSDK_OS_BAREMETAL -DNDEBUG -I../../ -I../../devices/MKL25Z4/gcc -I../../devices/MKL25Z4/utilities -I../../devices/MKL25Z4/drivers -I../../devices/MKL25Z4 -I../../CMSIS/Include -std=c99 -fno-common -ffreestanding -fno-builtin -mapcs -MMD -MP -MF"sources/tsi_kl25z.d" -MT"sources/tsi_kl25z.d" -c -o "sources/tsi_kl25z.o" "C:/Users/mini casa/Desktop/myProject/tsi_kl25z.c"
+C:/Users/mini casa/Desktop/myProject/tsi_kl25z.c:17:1: error: unknown type name 'tsi_state_t'
+ static tsi_state_t myTsiState;
+ ^
+C:/Users/mini casa/Desktop/myProject/tsi_kl25z.c:23:3: error: unknown field 'ps' specified in initializer
+   .ps = kTsiElecOscPrescaler_2div, /*! Prescaler */
+   ^
+C:/Users/mini casa/Desktop/myProject/tsi_kl25z.c:23:9: error: 'kTsiElecOscPrescaler_2div' undeclared here (not in a function)
+   .ps = kTsiElecOscPrescaler_2div, /*! Prescaler */
+         ^
+C:/Users/mini casa/Desktop/myProject/tsi_kl25z.c:24:14: error: 'kTsiExtOscChargeCurrent_8uA' undeclared here (not in a function)
+   .extchrg = kTsiExtOscChargeCurrent_8uA, /*! Electrode charge current */
+              ^
+C:/Users/mini casa/Desktop/myProject/tsi_kl25z.c:25:14: error: 'kTsiRefOscChargeCurrent_8uA' undeclared here (not in a function)
+   .refchrg = kTsiRefOscChargeCurrent_8uA, /*! Reference charge current */
+              ^
+C:/Users/mini casa/Desktop/myProject/tsi_kl25z.c:26:11: error: 'kTsiConsecutiveScansNumber_8time' undeclared here (not in a function)
+   .nscn = kTsiConsecutiveScansNumber_8time, /*! Number of scans. */
+           ^
+C:/Users/mini casa/Desktop/myProject/tsi_kl25z.c:27:11: error: 'kTsiAnalogModeSel_Capacitive' undeclared here (not in a function)
+   .mode = kTsiAnalogModeSel_Capacitive, /*! TSI analog modes in a TSI instance */
+           ^
+C:/Users/mini casa/Desktop/myProject/tsi_kl25z.c:28:12: error: 'kTsiOscVolRails_Dv_103' undeclared here (not in a function)
+   .dvolt = kTsiOscVolRails_Dv_103, .thresh = 100, /*! High byte of threshold. */
+            ^
+C:/Users/mini casa/Desktop/myProject/tsi_kl25z.c:36:1: error: unknown type name 'tsi_user_config_t'
+ static const tsi_user_config_t tsiConfig = {
+ ^
+C:/Users/mini casa/Desktop/myProject/tsi_kl25z.c:37:3: error: field name not in record or union initializer
+   .config = (tsi_config_t*) &tsiHwConfig,
+   ^
+C:/Users/mini casa/Desktop/myProject/tsi_kl25z.c:37:3: error: (near initialization for 'tsiConfig')
+C:/Users/mini casa/Desktop/myProject/tsi_kl25z.c:37:3: warning: initialization makes integer from pointer without a cast [enabled by default]
+C:/Users/mini casa/Desktop/myProject/tsi_kl25z.c:37:3: warning: (near initialization for 'tsiConfig') [enabled by default]
+C:/Users/mini casa/Desktop/myProject/tsi_kl25z.c:38:3: error: field name not in record or union initializer
+   .pCallBackFunc = NULL,
+   ^
+C:/Users/mini casa/Desktop/myProject/tsi_kl25z.c:38:3: error: (near initialization for 'tsiConfig')
+C:/Users/mini casa/Desktop/myProject/tsi_kl25z.c:38:3: warning: excess elements in scalar initializer [enabled by default]
+C:/Users/mini casa/Desktop/myProject/tsi_kl25z.c:38:3: warning: (near initialization for 'tsiConfig') [enabled by default]
+C:/Users/mini casa/Desktop/myProject/tsi_kl25z.c:39:3: error: field name not in record or union initializer
+   .usrData = 0,
+   ^
+C:/Users/mini casa/Desktop/myProject/tsi_kl25z.c:39:3: error: (near initialization for 'tsiConfig')
+C:/Users/mini casa/Desktop/myProject/tsi_kl25z.c:39:3: warning: excess elements in scalar initializer [enabled by default]
+C:/Users/mini casa/Desktop/myProject/tsi_kl25z.c:39:3: warning: (near initialization for 'tsiConfig') [enabled by default]
+C:/Users/mini casa/Desktop/myProject/tsi_kl25z.c:43:23: error: 'BOARD_TSI_ELECTRODE_CNT' undeclared here (not in a function)
+ static uint8_t tsiChn[BOARD_TSI_ELECTRODE_CNT];
+                       ^
+C:/Users/mini casa/Desktop/myProject/tsi_kl25z.c: In function 'initHwConfigTSI':
+C:/Users/mini casa/Desktop/myProject/tsi_kl25z.c:57:2: error: unknown type name 'tsi_status_t'
+  tsi_status_t result; //variable for catch Tsi errors
+  ^
+C:/Users/mini casa/Desktop/myProject/tsi_kl25z.c:72:2: warning: implicit declaration of function 'TSI_DRV_Init' [-Wimplicit-function-declaration]
+  result = TSI_DRV_Init(TSI_INSTANCE, &myTsiState, &tsiConfig);
+  ^
+C:/Users/mini casa/Desktop/myProject/tsi_kl25z.c:73:16: error: 'kStatus_TSI_Success' undeclared (first use in this function)
+  if (result != kStatus_TSI_Success) {
+                ^
+C:/Users/mini casa/Desktop/myProject/tsi_kl25z.c:73:16: note: each undeclared identifier is reported only once for each function it appears in
+C:/Users/mini casa/Desktop/myProject/tsi_kl25z.c:79:3: warning: implicit declaration of function 'TSI_DRV_EnableElectrode' [-Wimplicit-function-declaration]
+   result = TSI_DRV_EnableElectrode(TSI_INSTANCE, tsiChn[i], true);
+   ^
+C:/Users/mini casa/Desktop/myProject/tsi_kl25z.c: In function 'averageMeasurement':
+C:/Users/mini casa/Desktop/myProject/tsi_kl25z.c:94:2: error: unknown type name 'tsi_status_t'
+  tsi_status_t result; //variable for catch Tsi errors
+  ^
+C:/Users/mini casa/Desktop/myProject/tsi_kl25z.c:101:2: warning: implicit declaration of function 'TSI_DRV_MeasureBlocking' [-Wimplicit-function-declaration]
+  result = TSI_DRV_MeasureBlocking(TSI_INSTANCE);
+  ^
+C:/Users/mini casa/Desktop/myProject/tsi_kl25z.c:102:16: error: 'kStatus_TSI_Success' undeclared (first use in this function)
+  if (result != kStatus_TSI_Success) {
+                ^
+C:/Users/mini casa/Desktop/myProject/tsi_kl25z.c:109:4: warning: implicit declaration of function 'TSI_DRV_GetCounter' [-Wimplicit-function-declaration]
+    result = TSI_DRV_GetCounter(TSI_INSTANCE, tsiChn[j],
+    ^
+sources/subdir.mk:28: recipe for target 'sources/tsi_kl25z.o' failed
+make: *** [sources/tsi_kl25z.o] Error 1
+Finished building: C:/Users/mini casa/Desktop/myProject/main.c
+ 
+make: Target 'all' not remade because of errors.
+
+12:48:36 Build Finished (took 860ms)
+

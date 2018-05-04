@@ -1,0 +1,630 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_udivsi3.o)
+                              ./Project_Settings/Startup_Code/system_MKL25Z4.o (__aeabi_uidiv)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_dvmd_tls.o)
+                              c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-exit.o)
+                              c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o (exit)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-impure.o)
+                              c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-exit.o) (_global_impure_ptr)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-init.o)
+                              c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o (__libc_init_array)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-memset.o)
+                              c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o (memset)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a(_exit.o)
+                              c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+ready               0x1               ./Sources/dma.o
+value               0x10              ./Sources/main.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crti.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crti.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crti.o
+ .data          0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtbegin.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+ .ARM.extab     0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+ .group         0x00000000        0xc ./Sources/adc.o
+ .group         0x00000000        0xc ./Sources/adc.o
+ .group         0x00000000        0xc ./Sources/adc.o
+ .group         0x00000000        0xc ./Sources/adc.o
+ .group         0x00000000        0xc ./Sources/adc.o
+ .group         0x00000000        0xc ./Sources/adc.o
+ .group         0x00000000        0xc ./Sources/adc.o
+ .group         0x00000000        0xc ./Sources/adc.o
+ .group         0x00000000        0xc ./Sources/adc.o
+ .group         0x00000000        0xc ./Sources/adc.o
+ .group         0x00000000        0xc ./Sources/adc.o
+ .group         0x00000000        0xc ./Sources/adc.o
+ .group         0x00000000        0xc ./Sources/adc.o
+ .group         0x00000000        0xc ./Sources/adc.o
+ .text          0x00000000        0x0 ./Sources/adc.o
+ .data          0x00000000        0x0 ./Sources/adc.o
+ .bss           0x00000000        0x0 ./Sources/adc.o
+ .text.adc_read
+                0x00000000       0x50 ./Sources/adc.o
+ .group         0x00000000        0xc ./Sources/dma.o
+ .group         0x00000000        0xc ./Sources/dma.o
+ .group         0x00000000        0xc ./Sources/dma.o
+ .group         0x00000000        0xc ./Sources/dma.o
+ .group         0x00000000        0xc ./Sources/dma.o
+ .group         0x00000000        0xc ./Sources/dma.o
+ .group         0x00000000        0xc ./Sources/dma.o
+ .group         0x00000000        0xc ./Sources/dma.o
+ .group         0x00000000        0xc ./Sources/dma.o
+ .group         0x00000000        0xc ./Sources/dma.o
+ .group         0x00000000        0xc ./Sources/dma.o
+ .group         0x00000000        0xc ./Sources/dma.o
+ .group         0x00000000        0xc ./Sources/dma.o
+ .group         0x00000000        0xc ./Sources/dma.o
+ .text          0x00000000        0x0 ./Sources/dma.o
+ .data          0x00000000        0x0 ./Sources/dma.o
+ .bss           0x00000000        0x0 ./Sources/dma.o
+ .debug_macro   0x00000000      0xa2a ./Sources/dma.o
+ .debug_macro   0x00000000       0x16 ./Sources/dma.o
+ .debug_macro   0x00000000       0x22 ./Sources/dma.o
+ .debug_macro   0x00000000       0x4f ./Sources/dma.o
+ .debug_macro   0x00000000       0x51 ./Sources/dma.o
+ .debug_macro   0x00000000       0xef ./Sources/dma.o
+ .debug_macro   0x00000000       0x6a ./Sources/dma.o
+ .debug_macro   0x00000000      0x1df ./Sources/dma.o
+ .debug_macro   0x00000000       0x3a ./Sources/dma.o
+ .debug_macro   0x00000000       0x3a ./Sources/dma.o
+ .debug_macro   0x00000000       0x26 ./Sources/dma.o
+ .debug_macro   0x00000000      0x306 ./Sources/dma.o
+ .debug_macro   0x00000000       0x63 ./Sources/dma.o
+ .debug_macro   0x00000000     0x839f ./Sources/dma.o
+ .group         0x00000000        0xc ./Sources/main.o
+ .group         0x00000000        0xc ./Sources/main.o
+ .group         0x00000000        0xc ./Sources/main.o
+ .group         0x00000000        0xc ./Sources/main.o
+ .group         0x00000000        0xc ./Sources/main.o
+ .group         0x00000000        0xc ./Sources/main.o
+ .group         0x00000000        0xc ./Sources/main.o
+ .group         0x00000000        0xc ./Sources/main.o
+ .group         0x00000000        0xc ./Sources/main.o
+ .group         0x00000000        0xc ./Sources/main.o
+ .group         0x00000000        0xc ./Sources/main.o
+ .group         0x00000000        0xc ./Sources/main.o
+ .group         0x00000000        0xc ./Sources/main.o
+ .group         0x00000000        0xc ./Sources/main.o
+ .group         0x00000000        0xc ./Sources/main.o
+ .text          0x00000000        0x0 ./Sources/main.o
+ .data          0x00000000        0x0 ./Sources/main.o
+ .bss           0x00000000        0x0 ./Sources/main.o
+ .debug_macro   0x00000000      0xa2a ./Sources/main.o
+ .debug_macro   0x00000000       0x16 ./Sources/main.o
+ .debug_macro   0x00000000       0x22 ./Sources/main.o
+ .debug_macro   0x00000000       0x4f ./Sources/main.o
+ .debug_macro   0x00000000       0x51 ./Sources/main.o
+ .debug_macro   0x00000000       0xef ./Sources/main.o
+ .debug_macro   0x00000000       0x6a ./Sources/main.o
+ .debug_macro   0x00000000      0x1df ./Sources/main.o
+ .debug_macro   0x00000000       0x3a ./Sources/main.o
+ .debug_macro   0x00000000       0x3a ./Sources/main.o
+ .debug_macro   0x00000000       0x26 ./Sources/main.o
+ .debug_macro   0x00000000      0x306 ./Sources/main.o
+ .debug_macro   0x00000000       0x63 ./Sources/main.o
+ .debug_macro   0x00000000     0x839f ./Sources/main.o
+ .group         0x00000000        0xc ./Sources/pit.o
+ .group         0x00000000        0xc ./Sources/pit.o
+ .group         0x00000000        0xc ./Sources/pit.o
+ .group         0x00000000        0xc ./Sources/pit.o
+ .group         0x00000000        0xc ./Sources/pit.o
+ .group         0x00000000        0xc ./Sources/pit.o
+ .group         0x00000000        0xc ./Sources/pit.o
+ .group         0x00000000        0xc ./Sources/pit.o
+ .group         0x00000000        0xc ./Sources/pit.o
+ .group         0x00000000        0xc ./Sources/pit.o
+ .group         0x00000000        0xc ./Sources/pit.o
+ .group         0x00000000        0xc ./Sources/pit.o
+ .group         0x00000000        0xc ./Sources/pit.o
+ .group         0x00000000        0xc ./Sources/pit.o
+ .group         0x00000000        0xc ./Sources/pit.o
+ .text          0x00000000        0x0 ./Sources/pit.o
+ .data          0x00000000        0x0 ./Sources/pit.o
+ .bss           0x00000000        0x0 ./Sources/pit.o
+ .debug_macro   0x00000000      0xa2a ./Sources/pit.o
+ .debug_macro   0x00000000       0x16 ./Sources/pit.o
+ .debug_macro   0x00000000       0x22 ./Sources/pit.o
+ .debug_macro   0x00000000       0x4f ./Sources/pit.o
+ .debug_macro   0x00000000       0x51 ./Sources/pit.o
+ .debug_macro   0x00000000       0xef ./Sources/pit.o
+ .debug_macro   0x00000000       0x6a ./Sources/pit.o
+ .debug_macro   0x00000000      0x1df ./Sources/pit.o
+ .debug_macro   0x00000000       0x3a ./Sources/pit.o
+ .debug_macro   0x00000000       0x3a ./Sources/pit.o
+ .debug_macro   0x00000000       0x26 ./Sources/pit.o
+ .debug_macro   0x00000000      0x306 ./Sources/pit.o
+ .debug_macro   0x00000000       0x63 ./Sources/pit.o
+ .debug_macro   0x00000000     0x839f ./Sources/pit.o
+ .debug_macro   0x00000000       0x10 ./Sources/pit.o
+ .data          0x00000000        0x0 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+ .bss           0x00000000        0x0 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .text          0x00000000        0x0 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .data          0x00000000        0x0 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .bss           0x00000000        0x0 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .data.SystemCoreClock
+                0x00000000        0x4 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .text.SystemCoreClockUpdate
+                0x00000000      0x238 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00000000      0xa2a ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00000000       0x22 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00000000       0x4f ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00000000       0x51 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00000000       0xef ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00000000       0x6a ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00000000      0x1df ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00000000       0x3a ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00000000       0x26 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00000000      0x306 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00000000       0x63 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00000000     0x839f ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .text          0x00000000      0x114 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00000000       0x20 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000000       0x1e c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_udivsi3.o)
+ .text          0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000000       0x1e c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a(_dvmd_tls.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a(_exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a(_exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a(_exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtend.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtend.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtend.o
+ .eh_frame      0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtend.o
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtend.o
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtn.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtn.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+m_interrupts     0x00000000         0x00000100         xr
+m_flash_config   0x00000400         0x00000010         xr
+m_text           0x00000410         0x0001fbf0         xr
+m_data           0x1ffff000         0x00004000         rw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crti.o
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtbegin.o
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+LOAD ./Sources/adc.o
+LOAD ./Sources/dma.o
+LOAD ./Sources/main.o
+LOAD ./Sources/pit.o
+LOAD ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+LOAD ./Project_Settings/Startup_Code/system_MKL25Z4.o
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libstdc++_nano.a
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libm.a
+START GROUP
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m\libgcc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a
+END GROUP
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtend.o
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtn.o
+                0x00000400                HEAP_SIZE = DEFINED (__heap_size__)?__heap_size__:0x400
+                0x00000400                STACK_SIZE = DEFINED (__stack_size__)?__stack_size__:0x400
+
+.interrupts     0x00000000       0xc0
+                0x00000000                __VECTOR_TABLE = .
+                0x00000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xc0 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+                0x00000000                __isr_vector
+                0x000000c0                . = ALIGN (0x4)
+
+.flash_config   0x00000400       0x10
+                0x00000400                . = ALIGN (0x4)
+ *(.FlashConfig)
+ .FlashConfig   0x00000400       0x10 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+                0x00000410                . = ALIGN (0x4)
+
+.text           0x00000410      0x598
+                0x00000410                . = ALIGN (0x4)
+ *(.text)
+ .text          0x00000410       0x48 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtbegin.o
+ .text          0x00000458       0x78 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+                0x00000458                _start
+                0x00000458                _mainCRTStartup
+ .text          0x000004d0       0x34 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+                0x000004d0                Reset_Handler
+                0x000004fc                HardFault_Handler
+                0x000004fc                SysTick_Handler
+                0x000004fc                PendSV_Handler
+                0x000004fc                NMI_Handler
+                0x000004fc                I2C1_IRQHandler
+                0x000004fc                UART1_IRQHandler
+                0x000004fc                DMA2_IRQHandler
+                0x000004fc                TPM0_IRQHandler
+                0x000004fc                LLWU_IRQHandler
+                0x000004fc                TSI0_IRQHandler
+                0x000004fc                UART0_IRQHandler
+                0x000004fc                ADC0_IRQHandler
+                0x000004fc                Reserved39_IRQHandler
+                0x000004fc                SPI1_IRQHandler
+                0x000004fc                DefaultISR
+                0x000004fc                PORTD_IRQHandler
+                0x000004fc                TPM2_IRQHandler
+                0x000004fc                RTC_IRQHandler
+                0x000004fc                I2C0_IRQHandler
+                0x000004fc                RTC_Seconds_IRQHandler
+                0x000004fc                MCG_IRQHandler
+                0x000004fc                UART2_IRQHandler
+                0x000004fc                Reserved20_IRQHandler
+                0x000004fc                USB0_IRQHandler
+                0x000004fc                SVC_Handler
+                0x000004fc                DMA3_IRQHandler
+                0x000004fc                DAC0_IRQHandler
+                0x000004fc                Reserved45_IRQHandler
+                0x000004fc                TPM1_IRQHandler
+                0x000004fc                LVD_LVW_IRQHandler
+                0x000004fc                SPI0_IRQHandler
+                0x000004fc                PORTA_IRQHandler
+                0x000004fc                FTFA_IRQHandler
+                0x000004fc                LPTMR0_IRQHandler
+                0x000004fc                CMP0_IRQHandler
+                0x000004fc                DMA1_IRQHandler
+ *(.text*)
+ .text.adc_init
+                0x00000504       0x74 ./Sources/adc.o
+                0x00000504                adc_init
+ .text.adc_cal  0x00000578       0xf0 ./Sources/adc.o
+                0x00000578                adc_cal
+ .text.NVIC_EnableIRQ
+                0x00000668       0x2c ./Sources/dma.o
+ .text.dma_init
+                0x00000694       0xa8 ./Sources/dma.o
+                0x00000694                dma_init
+ .text.DMA0_IRQHandler
+                0x0000073c       0x50 ./Sources/dma.o
+                0x0000073c                DMA0_IRQHandler
+ .text.main     0x0000078c       0x64 ./Sources/main.o
+                0x0000078c                main
+ .text.NVIC_EnableIRQ
+                0x000007f0       0x2c ./Sources/pit.o
+ .text.pit_init
+                0x0000081c       0x98 ./Sources/pit.o
+                0x0000081c                pit_init
+ .text.PIT_IRQHandler
+                0x000008b4       0x38 ./Sources/pit.o
+                0x000008b4                PIT_IRQHandler
+ .text.SystemInit
+                0x000008ec       0x18 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+                0x000008ec                SystemInit
+ .text.exit     0x00000904       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-exit.o)
+                0x00000904                exit
+ .text.__libc_init_array
+                0x00000930       0x48 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-init.o)
+                0x00000930                __libc_init_array
+ .text.memset   0x00000978       0x10 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-memset.o)
+                0x00000978                memset
+ .text._exit    0x00000988        0x4 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a(_exit.o)
+                0x00000988                _exit
+ *(.rodata)
+ *(.rodata*)
+ .rodata._global_impure_ptr
+                0x0000098c        0x4 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-impure.o)
+                0x0000098c                _global_impure_ptr
+ *(.glue_7)
+ .glue_7        0x00000990        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000990        0x0 linker stubs
+ *(.eh_frame)
+ .eh_frame      0x00000990        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtbegin.o
+ *(.init)
+ .init          0x00000990        0x4 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crti.o
+                0x00000990                _init
+ .init          0x00000994        0x8 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtn.o
+ *(.fini)
+ .fini          0x0000099c        0x4 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crti.o
+                0x0000099c                _fini
+ .fini          0x000009a0        0x8 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtn.o
+                0x000009a8                . = ALIGN (0x4)
+
+.vfp11_veneer   0x000009a8        0x0
+ .vfp11_veneer  0x000009a8        0x0 linker stubs
+
+.v4_bx          0x000009a8        0x0
+ .v4_bx         0x000009a8        0x0 linker stubs
+
+.iplt           0x000009a8        0x0
+ .iplt          0x000009a8        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x000009a8        0x8
+                0x000009a8                __exidx_start = .
+ *(.ARM.exidx*)
+ .ARM.exidx     0x000009a8        0x8 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+                0x000009b0                __exidx_end = .
+
+.rel.dyn        0x000009b0        0x0
+ .rel.iplt      0x000009b0        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtbegin.o
+
+.ctors          0x000009b0        0x0
+                0x000009b0                __CTOR_LIST__ = .
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+                0x000009b0                __CTOR_END__ = .
+
+.dtors          0x000009b0        0x0
+                0x000009b0                __DTOR_LIST__ = .
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+                0x000009b0                __DTOR_END__ = .
+
+.preinit_array  0x000009b0        0x0
+                0x000009b0                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                0x000009b0                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x000009b0        0x4
+                0x000009b0                PROVIDE (__init_array_start, .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array*)
+ .init_array    0x000009b0        0x4 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtbegin.o
+                0x000009b4                PROVIDE (__init_array_end, .)
+
+.fini_array     0x000009b4        0x4
+                [!provide]                PROVIDE (__fini_array_start, .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array*)
+ .fini_array    0x000009b4        0x4 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtbegin.o
+                [!provide]                PROVIDE (__fini_array_end, .)
+                0x000009b8                __etext = .
+                0x000009b8                __DATA_ROM = .
+
+.mtb            0x1ffff000        0x0
+                0x1ffff000                . = ALIGN (0x8)
+                0x1ffff000                _mtb_start = .
+ *(.mtb_buf)
+                0x1ffff000                . = ALIGN (0x8)
+                0x1ffff000                _mtb_end = .
+
+.data           0x1ffff000       0x60 load address 0x000009b8
+                0x1ffff000                . = ALIGN (0x4)
+                0x1ffff000                __DATA_RAM = .
+                0x1ffff000                __data_start__ = .
+ *(.data)
+ *(.data*)
+ .data.impure_data
+                0x1ffff000       0x60 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-impure.o)
+ *(.jcr*)
+                0x1ffff060                . = ALIGN (0x4)
+                0x1ffff060                __data_end__ = .
+                0x00000a18                __DATA_END = (__DATA_ROM + (__data_end__ - __data_start__))
+
+.igot.plt       0x1ffff060        0x0 load address 0x00000a18
+ .igot.plt      0x1ffff060        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtbegin.o
+
+.bss            0x1ffff060       0x30 load address 0x00000a18
+                0x1ffff060                . = ALIGN (0x4)
+                0x1ffff060                __START_BSS = .
+                0x1ffff060                __bss_start__ = .
+ *(.bss)
+ .bss           0x1ffff060       0x1c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtbegin.o
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x1ffff07c        0x1 ./Sources/dma.o
+                0x1ffff07c                ready
+ *fill*         0x1ffff07d        0x3 
+ COMMON         0x1ffff080       0x10 ./Sources/main.o
+                0x1ffff080                value
+                0x1ffff090                . = ALIGN (0x4)
+                0x1ffff090                __bss_end__ = .
+                0x1ffff090                __END_BSS = .
+
+.heap           0x1ffff090      0x400 load address 0x00000a48
+                0x1ffff090                . = ALIGN (0x8)
+                0x1ffff090                __end__ = .
+                [!provide]                PROVIDE (end, .)
+                0x1ffff090                __HeapBase = .
+                0x1ffff490                . = (. + HEAP_SIZE)
+ *fill*         0x1ffff090      0x400 
+                0x1ffff490                __HeapLimit = .
+
+.stack          0x1ffff490      0x400 load address 0x00000e48
+                0x1ffff490                . = ALIGN (0x8)
+                0x1ffff890                . = (. + STACK_SIZE)
+ *fill*         0x1ffff490      0x400 
+                0x20003000                __StackTop = (ORIGIN (m_data) + LENGTH (m_data))
+                0x20002c00                __StackLimit = (__StackTop - STACK_SIZE)
+                0x20003000                PROVIDE (__stack, __StackTop)
+
+.ARM.attributes
+                0x00000000       0x28
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x1e c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crti.o
+ .ARM.attributes
+                0x0000001e       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtbegin.o
+ .ARM.attributes
+                0x0000004a       0x1b c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+ .ARM.attributes
+                0x00000065       0x32 ./Sources/adc.o
+ .ARM.attributes
+                0x00000097       0x32 ./Sources/dma.o
+ .ARM.attributes
+                0x000000c9       0x32 ./Sources/main.o
+ .ARM.attributes
+                0x000000fb       0x32 ./Sources/pit.o
+ .ARM.attributes
+                0x0000012d       0x1b ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+ .ARM.attributes
+                0x00000148       0x32 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .ARM.attributes
+                0x0000017a       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x000001a6       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000001d2       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x000001fe       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000022a       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a(_exit.o)
+ .ARM.attributes
+                0x00000256       0x1e c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtn.o
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region m_data overflowed with stack and heap)
+OUTPUT(DMA.elf elf32-littlearm)
+
+.debug_info     0x00000000     0x1964
+ .debug_info    0x00000000      0x48b ./Sources/adc.o
+ .debug_info    0x0000048b      0x7b7 ./Sources/dma.o
+ .debug_info    0x00000c42      0x118 ./Sources/main.o
+ .debug_info    0x00000d5a      0x7f6 ./Sources/pit.o
+ .debug_info    0x00001550       0x26 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+ .debug_info    0x00001576      0x3ee ./Project_Settings/Startup_Code/system_MKL25Z4.o
+
+.debug_abbrev   0x00000000      0x645
+ .debug_abbrev  0x00000000      0x129 ./Sources/adc.o
+ .debug_abbrev  0x00000129      0x1c1 ./Sources/dma.o
+ .debug_abbrev  0x000002ea       0xb5 ./Sources/main.o
+ .debug_abbrev  0x0000039f      0x17c ./Sources/pit.o
+ .debug_abbrev  0x0000051b       0x14 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+ .debug_abbrev  0x0000052f      0x116 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+
+.debug_aranges  0x00000000       0xf8
+ .debug_aranges
+                0x00000000       0x30 ./Sources/adc.o
+ .debug_aranges
+                0x00000030       0x30 ./Sources/dma.o
+ .debug_aranges
+                0x00000060       0x20 ./Sources/main.o
+ .debug_aranges
+                0x00000080       0x30 ./Sources/pit.o
+ .debug_aranges
+                0x000000b0       0x20 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+ .debug_aranges
+                0x000000d0       0x28 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+
+.debug_ranges   0x00000000       0x88
+ .debug_ranges  0x00000000       0x20 ./Sources/adc.o
+ .debug_ranges  0x00000020       0x20 ./Sources/dma.o
+ .debug_ranges  0x00000040       0x10 ./Sources/main.o
+ .debug_ranges  0x00000050       0x20 ./Sources/pit.o
+ .debug_ranges  0x00000070       0x18 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+
+.debug_macro    0x00000000     0x99d3
+ .debug_macro   0x00000000       0xae ./Sources/adc.o
+ .debug_macro   0x000000ae      0xa2a ./Sources/adc.o
+ .debug_macro   0x00000ad8       0x16 ./Sources/adc.o
+ .debug_macro   0x00000aee       0x22 ./Sources/adc.o
+ .debug_macro   0x00000b10       0x4f ./Sources/adc.o
+ .debug_macro   0x00000b5f       0x51 ./Sources/adc.o
+ .debug_macro   0x00000bb0       0xef ./Sources/adc.o
+ .debug_macro   0x00000c9f       0x6a ./Sources/adc.o
+ .debug_macro   0x00000d09      0x1df ./Sources/adc.o
+ .debug_macro   0x00000ee8       0x3a ./Sources/adc.o
+ .debug_macro   0x00000f22       0x3a ./Sources/adc.o
+ .debug_macro   0x00000f5c       0x26 ./Sources/adc.o
+ .debug_macro   0x00000f82      0x306 ./Sources/adc.o
+ .debug_macro   0x00001288       0x63 ./Sources/adc.o
+ .debug_macro   0x000012eb     0x839f ./Sources/adc.o
+ .debug_macro   0x0000968a       0xb4 ./Sources/dma.o
+ .debug_macro   0x0000973e       0xd9 ./Sources/main.o
+ .debug_macro   0x00009817       0x10 ./Sources/main.o
+ .debug_macro   0x00009827       0xc1 ./Sources/pit.o
+ .debug_macro   0x000098e8       0x9f ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00009987       0x4c ./Project_Settings/Startup_Code/system_MKL25Z4.o
+
+.debug_line     0x00000000      0xe59
+ .debug_line    0x00000000      0x2db ./Sources/adc.o
+ .debug_line    0x000002db      0x2b2 ./Sources/dma.o
+ .debug_line    0x0000058d      0x2ae ./Sources/main.o
+ .debug_line    0x0000083b      0x2b8 ./Sources/pit.o
+ .debug_line    0x00000af3       0x7b ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+ .debug_line    0x00000b6e      0x2eb ./Project_Settings/Startup_Code/system_MKL25Z4.o
+
+.debug_str      0x00000000    0x32bf3
+ .debug_str     0x00000000    0x327d4 ./Sources/adc.o
+                              0x32c02 (size before relaxing)
+ .debug_str     0x000327d4      0x284 ./Sources/dma.o
+                              0x32e70 (size before relaxing)
+ .debug_str     0x00032a58       0x3a ./Sources/main.o
+                              0x32aea (size before relaxing)
+ .debug_str     0x00032a92       0xa3 ./Sources/pit.o
+                              0x32eaa (size before relaxing)
+ .debug_str     0x00032b35       0x42 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+                                 0xaa (size before relaxing)
+ .debug_str     0x00032b77       0x7c ./Project_Settings/Startup_Code/system_MKL25Z4.o
+                              0x32bec (size before relaxing)
+
+.comment        0x00000000       0x7e
+ .comment       0x00000000       0x7e ./Sources/adc.o
+                                 0x7f (size before relaxing)
+ .comment       0x0000007e       0x7f ./Sources/dma.o
+ .comment       0x0000007e       0x7f ./Sources/main.o
+ .comment       0x0000007e       0x7f ./Sources/pit.o
+ .comment       0x0000007e       0x7f ./Project_Settings/Startup_Code/system_MKL25Z4.o
+
+.debug_frame    0x00000000      0x24c
+ .debug_frame   0x00000000       0x6c ./Sources/adc.o
+ .debug_frame   0x0000006c       0x68 ./Sources/dma.o
+ .debug_frame   0x000000d4       0x30 ./Sources/main.o
+ .debug_frame   0x00000104       0x68 ./Sources/pit.o
+ .debug_frame   0x0000016c       0x4c ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_frame   0x000001b8       0x28 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-exit.o)
+ .debug_frame   0x000001e0       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-init.o)
+ .debug_frame   0x0000020c       0x20 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a(lib_a-memset.o)
+ .debug_frame   0x0000022c       0x20 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a(_exit.o)

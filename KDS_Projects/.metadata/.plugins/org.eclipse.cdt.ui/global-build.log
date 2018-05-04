@@ -1,0 +1,213 @@
+13:21:27 **** Clean-only build of configuration Debug for project Trabalho ****
+make clean 
+rm -rf  ./Sources/App.o ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Clock_10_ms.o ./Generated_Code/Cpu.o ./Generated_Code/Infrared_sensor.o ./Generated_Code/LED_Blue.o ./Generated_Code/LED_Green.o ./Generated_Code/LED_Red.o ./Generated_Code/MCUC1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/TU1.o ./Generated_Code/TU2.o ./Generated_Code/TimerIntLdd1.o ./Generated_Code/Vectors.o ./Generated_Code/WAIT1.o  ./Sources/App.d ./Sources/Events.d ./Sources/main.d  ./Project_Settings/Startup_Code/startup.d  ./Generated_Code/BitIoLdd1.d ./Generated_Code/BitIoLdd2.d ./Generated_Code/BitIoLdd3.d ./Generated_Code/Clock_10_ms.d ./Generated_Code/Cpu.d ./Generated_Code/Infrared_sensor.d ./Generated_Code/LED_Blue.d ./Generated_Code/LED_Green.d ./Generated_Code/LED_Red.d ./Generated_Code/MCUC1.d ./Generated_Code/PE_LDD.d ./Generated_Code/PwmLdd1.d ./Generated_Code/TU1.d ./Generated_Code/TU2.d ./Generated_Code/TimerIntLdd1.d ./Generated_Code/Vectors.d ./Generated_Code/WAIT1.d  Trabalho.elf
+ 
+13:59:24 **** Build of configuration Debug for project DMA ****
+make all 
+Building file: ../Sources/adc.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Sources/adc.d" -MT"Sources/adc.o" -c -o "Sources/adc.o" "../Sources/adc.c"
+Finished building: ../Sources/adc.c
+ 
+Building file: ../Sources/dma.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Sources/dma.d" -MT"Sources/dma.o" -c -o "Sources/dma.o" "../Sources/dma.c"
+Finished building: ../Sources/dma.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building file: ../Sources/pit.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Sources/pit.d" -MT"Sources/pit.o" -c -o "Sources/pit.o" "../Sources/pit.c"
+Finished building: ../Sources/pit.c
+ 
+Building file: ../Project_Settings/Startup_Code/startup_MKL25Z4.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"Project_Settings/Startup_Code/startup_MKL25Z4.d" -MT"Project_Settings/Startup_Code/startup_MKL25Z4.o" -c -o "Project_Settings/Startup_Code/startup_MKL25Z4.o" "../Project_Settings/Startup_Code/startup_MKL25Z4.S"
+Finished building: ../Project_Settings/Startup_Code/startup_MKL25Z4.S
+ 
+Building file: ../Project_Settings/Startup_Code/system_MKL25Z4.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Project_Settings/Startup_Code/system_MKL25Z4.d" -MT"Project_Settings/Startup_Code/system_MKL25Z4.o" -c -o "Project_Settings/Startup_Code/system_MKL25Z4.o" "../Project_Settings/Startup_Code/system_MKL25Z4.c"
+Finished building: ../Project_Settings/Startup_Code/system_MKL25Z4.c
+ 
+Building target: DMA.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MKL25Z128xxx4_flash.ld" -Xlinker --gc-sections -L"C:/Users/mini casa/Desktop/Eder/Pós_Sistemas_Embarcados/Processadores_Embarcados/KDS_Projects/DMA/Project_Settings/Linker_Files" -Wl,-Map,"DMA.map" -specs=nano.specs -specs=nosys.specs -o "DMA.elf"  ./Sources/adc.o ./Sources/dma.o ./Sources/main.o ./Sources/pit.o  ./Project_Settings/Startup_Code/startup_MKL25Z4.o ./Project_Settings/Startup_Code/system_MKL25Z4.o   
+Finished building target: DMA.elf
+ 
+14:01:06 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+make: Nothing to be done for 'all'.
+13:42:54 **** Build of configuration Debug for project Multitasking ****
+make all 
+Building file: ../Sources/exec.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Sources/exec.d" -MT"Sources/exec.o" -c -o "Sources/exec.o" "../Sources/exec.c"
+In file included from ../Sources/exec.h:5:0,
+                 from ../Sources/exec.c:1:
+../Sources/exec.c: In function 'systimer_tick':
+../Sources/list.h:22:36: warning: assignment discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define list_for_each(X, Y)   for(Y=X;Y!=NULL;Y=Y->list.next)
+                                    ^
+../Sources/exec.c:51:4: note: in expansion of macro 'list_for_each'
+    list_for_each(_tasks, task) {
+    ^~~~~~~~~~~~~
+../Sources/exec.c: In function 'task_run':
+../Sources/list.h:22:36: warning: assignment discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define list_for_each(X, Y)   for(Y=X;Y!=NULL;Y=Y->list.next)
+                                    ^
+../Sources/exec.c:77:4: note: in expansion of macro 'list_for_each'
+    list_for_each(_tasks, task) {
+    ^~~~~~~~~~~~~
+../Sources/exec.c:83:13: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+          fn = task->func;
+             ^
+In file included from ../Sources/exec.h:5:0,
+                 from ../Sources/exec.c:1:
+../Sources/exec.c: In function 'cancel_task':
+../Sources/list.h:22:36: warning: assignment discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define list_for_each(X, Y)   for(Y=X;Y!=NULL;Y=Y->list.next)
+                                    ^
+../Sources/exec.c:157:4: note: in expansion of macro 'list_for_each'
+    list_for_each(_tasks, p) {
+    ^~~~~~~~~~~~~
+Finished building: ../Sources/exec.c
+ 
+Building file: ../Sources/list.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Sources/list.d" -MT"Sources/list.o" -c -o "Sources/list.o" "../Sources/list.c"
+Finished building: ../Sources/list.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'task_led':
+../Sources/main.c:42:14: warning: passing argument 1 of 'add_task' makes integer from pointer without a cast [-Wint-conversion]
+     add_task(&task_led, 200);
+              ^
+In file included from ../Sources/main.c:34:0:
+../Sources/exec.h:38:8: note: expected 'uint32_t {aka long unsigned int}' but argument is of type 'void (*)(uint16_t) {aka void (*)(short unsigned int)}'
+ bool_t add_task(uint32_t f, uint16_t p, uint16_t t);
+        ^~~~~~~~
+../Sources/main.c:42:5: error: too few arguments to function 'add_task'
+     add_task(&task_led, 200);
+     ^~~~~~~~
+In file included from ../Sources/main.c:34:0:
+../Sources/exec.h:38:8: note: declared here
+ bool_t add_task(uint32_t f, uint16_t p, uint16_t t);
+        ^~~~~~~~
+../Sources/main.c: In function 'main':
+../Sources/main.c:51:11: warning: passing argument 1 of 'add_task' makes integer from pointer without a cast [-Wint-conversion]
+  add_task(&task_led,200);
+           ^
+In file included from ../Sources/main.c:34:0:
+../Sources/exec.h:38:8: note: expected 'uint32_t {aka long unsigned int}' but argument is of type 'void (*)(uint16_t) {aka void (*)(short unsigned int)}'
+ bool_t add_task(uint32_t f, uint16_t p, uint16_t t);
+        ^~~~~~~~
+../Sources/main.c:51:2: error: too few arguments to function 'add_task'
+  add_task(&task_led,200);
+  ^~~~~~~~
+In file included from ../Sources/main.c:34:0:
+../Sources/exec.h:38:8: note: declared here
+ bool_t add_task(uint32_t f, uint16_t p, uint16_t t);
+        ^~~~~~~~
+Sources/subdir.mk:24: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+14:06:46 **** Incremental Build of configuration Debug for project Multitasking ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'task_led':
+../Sources/main.c:42:14: warning: passing argument 1 of 'add_task' makes integer from pointer without a cast [-Wint-conversion]
+     add_task(&task_led, 0, 200);
+              ^
+In file included from ../Sources/main.c:34:0:
+../Sources/exec.h:38:8: note: expected 'uint32_t {aka long unsigned int}' but argument is of type 'void (*)(uint16_t) {aka void (*)(short unsigned int)}'
+ bool_t add_task(uint32_t f, uint16_t p, uint16_t t);
+        ^~~~~~~~
+../Sources/main.c: In function 'main':
+../Sources/main.c:51:11: warning: passing argument 1 of 'add_task' makes integer from pointer without a cast [-Wint-conversion]
+  add_task(&task_led, 0, 200);
+           ^
+In file included from ../Sources/main.c:34:0:
+../Sources/exec.h:38:8: note: expected 'uint32_t {aka long unsigned int}' but argument is of type 'void (*)(uint16_t) {aka void (*)(short unsigned int)}'
+ bool_t add_task(uint32_t f, uint16_t p, uint16_t t);
+        ^~~~~~~~
+Finished building: ../Sources/main.c
+ 
+Building file: ../Project_Settings/Startup_Code/startup_MKL25Z4.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"Project_Settings/Startup_Code/startup_MKL25Z4.d" -MT"Project_Settings/Startup_Code/startup_MKL25Z4.o" -c -o "Project_Settings/Startup_Code/startup_MKL25Z4.o" "../Project_Settings/Startup_Code/startup_MKL25Z4.S"
+Finished building: ../Project_Settings/Startup_Code/startup_MKL25Z4.S
+ 
+Building file: ../Project_Settings/Startup_Code/system_MKL25Z4.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Project_Settings/Startup_Code/system_MKL25Z4.d" -MT"Project_Settings/Startup_Code/system_MKL25Z4.o" -c -o "Project_Settings/Startup_Code/system_MKL25Z4.o" "../Project_Settings/Startup_Code/system_MKL25Z4.c"
+Finished building: ../Project_Settings/Startup_Code/system_MKL25Z4.c
+ 
+Building target: Multitasking.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MKL25Z128xxx4_flash.ld" -Xlinker --gc-sections -L"C:/Users/mini casa/Desktop/Eder/Pós_Sistemas_Embarcados/Processadores_Embarcados/KDS_Projects/Multitasking/Project_Settings/Linker_Files" -Wl,-Map,"Multitasking.map" -specs=nano.specs -specs=nosys.specs -o "Multitasking.elf"  ./Sources/exec.o ./Sources/list.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MKL25Z4.o ./Project_Settings/Startup_Code/system_MKL25Z4.o   
+Finished building target: Multitasking.elf
+ 
+14:22:00 **** Incremental Build of configuration Debug for project Multitasking ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'task_led':
+../Sources/main.c:42:14: warning: passing argument 1 of 'add_task' makes integer from pointer without a cast [-Wint-conversion]
+     add_task(&task_led, (uint16_t)0, 200);
+              ^
+In file included from ../Sources/main.c:34:0:
+../Sources/exec.h:38:8: note: expected 'uint32_t {aka long unsigned int}' but argument is of type 'void (*)(uint16_t) {aka void (*)(short unsigned int)}'
+ bool_t add_task(uint32_t f, uint16_t p, uint16_t t);
+        ^~~~~~~~
+../Sources/main.c: In function 'main':
+../Sources/main.c:51:11: warning: passing argument 1 of 'add_task' makes integer from pointer without a cast [-Wint-conversion]
+  add_task(&task_led, (uint16_t)0, 200);
+           ^
+In file included from ../Sources/main.c:34:0:
+../Sources/exec.h:38:8: note: expected 'uint32_t {aka long unsigned int}' but argument is of type 'void (*)(uint16_t) {aka void (*)(short unsigned int)}'
+ bool_t add_task(uint32_t f, uint16_t p, uint16_t t);
+        ^~~~~~~~
+Finished building: ../Sources/main.c
+ 
+Building target: Multitasking.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MKL25Z128xxx4_flash.ld" -Xlinker --gc-sections -L"C:/Users/mini casa/Desktop/Eder/Pós_Sistemas_Embarcados/Processadores_Embarcados/KDS_Projects/Multitasking/Project_Settings/Linker_Files" -Wl,-Map,"Multitasking.map" -specs=nano.specs -specs=nosys.specs -o "Multitasking.elf"  ./Sources/exec.o ./Sources/list.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MKL25Z4.o ./Project_Settings/Startup_Code/system_MKL25Z4.o   
+Finished building target: Multitasking.elf
+ 
+14:22:41 **** Incremental Build of configuration Debug for project Multitasking ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'task_led':
+../Sources/main.c:42:14: warning: passing argument 1 of 'add_task' makes integer from pointer without a cast [-Wint-conversion]
+     add_task(&task_led, (uint16_t)0, (uint16_t)200);
+              ^
+In file included from ../Sources/main.c:34:0:
+../Sources/exec.h:38:8: note: expected 'uint32_t {aka long unsigned int}' but argument is of type 'void (*)(uint16_t) {aka void (*)(short unsigned int)}'
+ bool_t add_task(uint32_t f, uint16_t p, uint16_t t);
+        ^~~~~~~~
+../Sources/main.c: In function 'main':
+../Sources/main.c:51:11: warning: passing argument 1 of 'add_task' makes integer from pointer without a cast [-Wint-conversion]
+  add_task(&task_led, (uint16_t)0, (uint16_t)200);
+           ^
+In file included from ../Sources/main.c:34:0:
+../Sources/exec.h:38:8: note: expected 'uint32_t {aka long unsigned int}' but argument is of type 'void (*)(uint16_t) {aka void (*)(short unsigned int)}'
+ bool_t add_task(uint32_t f, uint16_t p, uint16_t t);
+        ^~~~~~~~
+Finished building: ../Sources/main.c
+ 
+Building target: Multitasking.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MKL25Z128xxx4_flash.ld" -Xlinker --gc-sections -L"C:/Users/mini casa/Desktop/Eder/Pós_Sistemas_Embarcados/Processadores_Embarcados/KDS_Projects/Multitasking/Project_Settings/Linker_Files" -Wl,-Map,"Multitasking.map" -specs=nano.specs -specs=nosys.specs -o "Multitasking.elf"  ./Sources/exec.o ./Sources/list.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MKL25Z4.o ./Project_Settings/Startup_Code/system_MKL25Z4.o   
+Finished building target: Multitasking.elf
+ 

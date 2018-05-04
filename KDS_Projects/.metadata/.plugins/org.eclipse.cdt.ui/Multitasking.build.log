@@ -1,0 +1,31 @@
+14:22:41 **** Incremental Build of configuration Debug for project Multitasking ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'task_led':
+../Sources/main.c:42:14: warning: passing argument 1 of 'add_task' makes integer from pointer without a cast [-Wint-conversion]
+     add_task(&task_led, (uint16_t)0, (uint16_t)200);
+              ^
+In file included from ../Sources/main.c:34:0:
+../Sources/exec.h:38:8: note: expected 'uint32_t {aka long unsigned int}' but argument is of type 'void (*)(uint16_t) {aka void (*)(short unsigned int)}'
+ bool_t add_task(uint32_t f, uint16_t p, uint16_t t);
+        ^~~~~~~~
+../Sources/main.c: In function 'main':
+../Sources/main.c:51:11: warning: passing argument 1 of 'add_task' makes integer from pointer without a cast [-Wint-conversion]
+  add_task(&task_led, (uint16_t)0, (uint16_t)200);
+           ^
+In file included from ../Sources/main.c:34:0:
+../Sources/exec.h:38:8: note: expected 'uint32_t {aka long unsigned int}' but argument is of type 'void (*)(uint16_t) {aka void (*)(short unsigned int)}'
+ bool_t add_task(uint32_t f, uint16_t p, uint16_t t);
+        ^~~~~~~~
+Finished building: ../Sources/main.c
+ 
+Building target: Multitasking.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MKL25Z128xxx4_flash.ld" -Xlinker --gc-sections -L"C:/Users/mini casa/Desktop/Eder/Pós_Sistemas_Embarcados/Processadores_Embarcados/KDS_Projects/Multitasking/Project_Settings/Linker_Files" -Wl,-Map,"Multitasking.map" -specs=nano.specs -specs=nosys.specs -o "Multitasking.elf"  ./Sources/exec.o ./Sources/list.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MKL25Z4.o ./Project_Settings/Startup_Code/system_MKL25Z4.o   
+Finished building target: Multitasking.elf
+ 
+
+14:22:41 Build Finished (took 594ms)
+

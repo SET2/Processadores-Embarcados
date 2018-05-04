@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Freescale\SDK_2.2_FRDM-KL25Z\boards\frdmkl25z\driver_examples\adc16\polling"/>
+			<item value="C:\Freescale\SDK_2.2_FRDM-KL25Z\boards\frdmkl25z"/>
+			<item value="C:\Freescale\SDK_2.2_FRDM-KL25Z\boards\frdmkl25z\driver_examples"/>
+			<item value="C:\Users\mini casa\Desktop\Eder\Pós_Sistemas_Embarcados\Processadores_Embarcados\KDS_Projects\EX01_Blink"/>
+			<item value="C:\Freescale\SDK_2.2_FRDM-KL25Z\boards\frdmkl25z\driver_examples\tsi_v4"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="CleanDialogSettings">
+		<item value="500" key="DIALOG_WIDTH"/>
+		<item value="268" key="DIALOG_Y_ORIGIN"/>
+		<item value="710" key="DIALOG_X_ORIGIN"/>
+		<item value="378" key="DIALOG_HEIGHT"/>
+		<item value="false" key="TOGGLE_SELECTED"/>
+	</section>
+</section>

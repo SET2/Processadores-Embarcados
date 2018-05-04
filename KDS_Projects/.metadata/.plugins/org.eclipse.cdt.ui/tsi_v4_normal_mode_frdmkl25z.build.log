@@ -1,0 +1,6 @@
+16:32:35 **** Incremental Build of configuration debug for project tsi_v4_normal_mode_frdmkl25z ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+
+16:32:36 Build Finished (took 582ms)
+

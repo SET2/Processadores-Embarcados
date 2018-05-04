@@ -1,0 +1,6 @@
+20:14:17 **** Incremental Build of configuration debug for project tpm_simple_pwm_frdmkl25z ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+
+20:14:18 Build Finished (took 357ms)
+

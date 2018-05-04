@@ -1,0 +1,6 @@
+12:56:49 **** Build of configuration Debug for project kl25z_StandAlone ****
+make all 
+make: *** No rule to make target '/home/milton/KSDK_1.2.0/platform/utilities/src/fsl_debug_console.c', needed by 'utilities/fsl_debug_console.o'.  Stop.
+
+12:56:49 Build Finished (took 292ms)
+
